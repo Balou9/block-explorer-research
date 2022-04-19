@@ -1,0 +1,127 @@
+---
+title: "Research: Open Source Substrate Blockchain Explorer Compatible With Phala Network"
+author: "Emmanuel O."
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+if (!require("XLConnect")) { install.packages("XLConnect") }
+library(XLConnect)
+```
+
+
+```{r}
+workbook <- loadWorkbook("candidates.xlsx", create = TRUE)
+candidates <- readWorksheet(
+  workbook, sheet = "candidates", startRow = 1,
+  startCol = 1, endRow = 6, endCol = 4, header = TRUE
+)
+
+techstack <- readWorksheet(
+  workbook, sheet = "techstack", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 4, header = TRUE
+)
+
+community <- readWorksheet(
+  workbook, sheet = "community", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 6, header = TRUE
+)
+
+codequality <- readWorksheet(
+  workbook, sheet = "codequality", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 7, header = TRUE
+)
+
+devops <- readWorksheet(
+  workbook, sheet = "devops", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 4, header = TRUE
+)
+
+features <- readWorksheet(
+  workbook, sheet = "features", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 8, header = TRUE
+)
+
+transaction_features <- readWorksheet(
+  workbook, sheet = "transaction_features", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 5, header = TRUE
+)
+
+event_features <- readWorksheet(
+  workbook, sheet = "event_features", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 5, header = TRUE
+)
+
+statistics_features <- readWorksheet(
+  workbook, sheet = "statistics_features", startRow = 1,
+  startCol = 1, endRow = 5, endCol = 4, header = TRUE
+)
+```
+
+# List of candidates
+
+```{r}
+knitr::kable(candidates, col.names = gsub("[.]+", " ", colnames(candidates)))
+```
+
+# Tech stack
+
+```{r}
+knitr::kable(techstack, col.names = gsub("[.]+", " ", colnames(techstack)))
+```
+
+# Community
+
+```{r}
+knitr::kable(community, col.names = gsub("[.]+", " ", colnames(community)))
+```
+
+# Code quality
+
+```{r}
+knitr::kable(codequality, col.names = gsub("[.]+", " ", colnames(codequality)))
+```
+
+# Devops
+
+```{r}
+knitr::kable(devops, col.names = gsub("[.]+", " ", colnames(devops)))
+```
+
+# Features
+
+```{r}
+knitr::kable(features, col.names = gsub("[.]+", " ", colnames(features)))
+```
+
+## Transaction features
+
+```{r}
+knitr::kable(transaction_features, col.names = gsub("[.]+", " ", colnames(transaction_features)))
+```
+
+## Event features
+
+```{r}
+knitr::kable(event_features, col.names = gsub("[.]+", " ", colnames(event_features)))
+```
+
+## Statistics features
+
+```{r}
+knitr::kable(statistics_features, col.names = gsub("[.]+", " ", colnames(statistics_features)))
+```
+
+# Conclusion 
+
+SUBSCAN seems to be the block explorer that the Phala network should be integrated with. It is well documented and maintained, has a high code quality and matches almost all features of the assessment.
+
+# Deployment Guide 
+
+The network will be included by SUBSCAN. Therefore a form has to be filled. 
+
+**https://subscan.typeform.com/to/jqdAWJ?typeform-source=www.subscan.io**
