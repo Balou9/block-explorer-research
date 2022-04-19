@@ -1,5 +1,8 @@
+Research: Open Source Substrate Blockchain Explorer Compatible With Phala Network
+=================================================================================
+
 List of candidates
-==================
+------------------
 
 <table>
 <colgroup>
@@ -50,8 +53,11 @@ List of candidates
 </tbody>
 </table>
 
+The Dotscanner block explorer will not be analyzed any further, as it is
+not an open source solution.
+
 Tech stack
-==========
+----------
 
 | Explorer                  | Backend            | Frontend | Database        |
 |:--------------------------|:-------------------|:---------|:----------------|
@@ -61,17 +67,17 @@ Tech stack
 | Polkadot-JS Apps Explorer | Typescript         | ReactJs  | Access via IPFS |
 
 Community
-=========
+---------
 
 | Explorer                  | Open Source | License                         | Actively mantained |  Stars|  Forks|
 |:--------------------------|:------------|:--------------------------------|:-------------------|------:|------:|
 | Polkascan                 | yes         | GNU General Public License v3.0 | yes                |     51|     53|
 | Subscan                   | yes         | GNU General Public License v3.0 | yes                |    131|     79|
-| Polkastats                | yes         | GNU General Public License v3.0 | no                 |     21|     25|
+| Polkastats                | yes         | GNU General Public License v3.0 | yes                |     21|     25|
 | Polkadot-JS Apps Explorer | yes         | Apache License 2.0              | yes                |   1712|    829|
 
 Code quality
-============
+------------
 
 <table>
 <colgroup>
@@ -135,7 +141,7 @@ Code quality
 </table>
 
 Devops
-======
+------
 
 <table>
 <colgroup>
@@ -181,7 +187,7 @@ Devops
 </table>
 
 Features
-========
+--------
 
 <table>
 <colgroup>
@@ -250,8 +256,7 @@ Features
 </tbody>
 </table>
 
-Transaction features
---------------------
+### Transaction features
 
 <table style="width:100%;">
 <colgroup>
@@ -302,8 +307,7 @@ Transaction features
 </tbody>
 </table>
 
-Event features
---------------
+### Event features
 
 <table>
 <colgroup>
@@ -354,8 +358,7 @@ Event features
 </tbody>
 </table>
 
-Statistics features
--------------------
+### Statistics features
 
 <table>
 <colgroup>
@@ -401,14 +404,14 @@ Statistics features
 </table>
 
 Conclusion
-==========
+----------
 
 SUBSCAN seems to be the block explorer that the Phala network should be
 integrated with. It is well documented and maintained, has a high code
 quality and matches almost all features of the assessment.
 
 Deployment Guide
-================
+----------------
 
 The network will be included by SUBSCAN. Therefore a form has to be
 filled.

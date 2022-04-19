@@ -62,65 +62,69 @@ statistics_features <- readWorksheet(
 )
 ```
 
-# List of candidates
+# Research: Open Source Substrate Blockchain Explorer Compatible With Phala Network
+
+## List of candidates
 
 ```{r}
 knitr::kable(candidates, col.names = gsub("[.]+", " ", colnames(candidates)))
 ```
 
-# Tech stack
+The Dotscanner block explorer will not be analyzed any further, as it is not an open source solution. 
+
+## Tech stack
 
 ```{r}
 knitr::kable(techstack, col.names = gsub("[.]+", " ", colnames(techstack)))
 ```
 
-# Community
+## Community
 
 ```{r}
 knitr::kable(community, col.names = gsub("[.]+", " ", colnames(community)))
 ```
 
-# Code quality
+## Code quality
 
 ```{r}
 knitr::kable(codequality, col.names = gsub("[.]+", " ", colnames(codequality)))
 ```
 
-# Devops
+## Devops
 
 ```{r}
 knitr::kable(devops, col.names = gsub("[.]+", " ", colnames(devops)))
 ```
 
-# Features
+## Features
 
 ```{r}
 knitr::kable(features, col.names = gsub("[.]+", " ", colnames(features)))
 ```
 
-## Transaction features
+### Transaction features
 
 ```{r}
 knitr::kable(transaction_features, col.names = gsub("[.]+", " ", colnames(transaction_features)))
 ```
 
-## Event features
+### Event features
 
 ```{r}
 knitr::kable(event_features, col.names = gsub("[.]+", " ", colnames(event_features)))
 ```
 
-## Statistics features
+### Statistics features
 
 ```{r}
 knitr::kable(statistics_features, col.names = gsub("[.]+", " ", colnames(statistics_features)))
 ```
 
-# Conclusion 
+## Conclusion 
 
 SUBSCAN seems to be the block explorer that the Phala network should be integrated with. It is well documented and maintained, has a high code quality and matches almost all features of the assessment.
 
-# Deployment Guide 
+## Deployment Guide 
 
 The network will be included by SUBSCAN. Therefore a form has to be filled. 
 
