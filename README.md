@@ -1,12 +1,15 @@
 Research: Open Source Substrate Blockchain Explorer Compatible With Phala Network
 =================================================================================
 
-This research doesn’t mean to disrespect any team or contributors of the
-respective block explorer project. It is only conducted for research
-purposes.
+This research is not intended to diminish the work of the teams or
+contributors to the particular Block Explorer project. It is conducted
+for research purposes only.
 
 List of candidates
 ------------------
+
+The Dotscanner block explorer will not be analyzed any further, since it
+is not an open source solution.
 
 <table>
 <colgroup>
@@ -56,9 +59,6 @@ List of candidates
 </tr>
 </tbody>
 </table>
-
-The Dotscanner block explorer will not be analyzed any further, as it is
-not an open source solution.
 
 Tech stack
 ----------
