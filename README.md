@@ -1,6 +1,10 @@
 Research: Open Source Substrate Blockchain Explorer Compatible With Phala Network
 =================================================================================
 
+This research doesn’t mean to disrespect any team or contributors of the
+respective block explorer project. It is only conducted for research
+purposes.
+
 List of candidates
 ------------------
 
@@ -62,9 +66,9 @@ Tech stack
 | Explorer                  | Backend            | Frontend | Database        |
 |:--------------------------|:-------------------|:---------|:----------------|
 | Polkascan                 | Python (Substrate) | Angular  | MySQL           |
-| Subscan                   | Go                 | Vue.Js   | MySQL           |
-| Polkastats                | Node.Js            | Vue.Js   | PostgresSQL     |
-| Polkadot-JS Apps Explorer | Typescript         | ReactJs  | Access via IPFS |
+| Subscan                   | Go                 | Vue.js   | MySQL           |
+| Polkastats                | Node.js            | Vue.js   | PostgresSQL     |
+| Polkadot-JS Apps Explorer | TypeScript         | React.js | Access via IPFS |
 
 Community
 ---------
@@ -406,9 +410,9 @@ Features
 Conclusion
 ----------
 
-SUBSCAN seems to be the block explorer that the Phala network should be
-integrated with. It is well documented and maintained, has a high code
-quality and matches almost all features of the assessment.
+SUBSCAN appears to be the block explorer into which the Phala network
+can be integrated. It is well documented and maintained, has a high code
+quality and meets almost all features of the evaluation.
 
 Deployment Guide
 ----------------
